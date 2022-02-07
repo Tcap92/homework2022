@@ -7,4 +7,4 @@ HI! My name is **Tyler Capstick**. I am an aspiring JR Full-Stack developer. I a
 2. I would **LOVE** to lane a JR. Developer job to better provide for my family!
 3. I would like to have connections for networking to market myself.
 4. I want to find a job that I truly get excited for in the mornings.
-5. **I WANT TO COMPLETE THIS COURSE!**
+5. **I WANT TO COMPLETE THIS COURSE!!!**
