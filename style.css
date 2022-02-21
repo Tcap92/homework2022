@@ -1,0 +1,41 @@
+* {
+  padding: 1px;
+  margin: .5em;
+  border: 10em;
+  background-color: aqua;
+}
+
+
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #EA526F;
+}
+p {
+color:#EA526F;
+}
+img {
+vertical-align: middle;
+float: left;
+}
+h4 {
+  color: #070600;
+  padding: 5px;
+  margin: 5px;
+}
+footer {
+  color: #f7f7ff;
+  background-color: #070600;
+}
+#Lists1 {
+  color: #EA526F;
+}
+.first1 {
+padding: .5px;
+margin-top: 1px;
+}
+body > nav {
+background-color: #070600;
+}

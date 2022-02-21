@@ -1,25 +1,25 @@
-let pizzaToppings = ["bacon", "onion", "pep", "sausage"];
-console.log(pizzaToppings);
-function greetCustomer() {
-  let message = "Welcome to Pizza House, our toppings are ";
-  // console.log(message + pizzaToppings );
-  for (let name of pizzaToppings) {
-    message += `${name}, `;
-  }
-  console.log(message);
-}
+// let pizzaToppings = ["bacon", "onion", "pep", "sausage"];
+// console.log(pizzaToppings);
+// function greetCustomer() {
+//   let message = "Welcome to Pizza House, our toppings are ";
+//   // console.log(message + pizzaToppings );
+//   for (let name of pizzaToppings) {
+//     message += `${name}, `;
+//   }
+//   console.log(message);
+// }
 
-greetCustomer();
-function getPizzaOrder(size, crust, ...toppings) {
-  let message = `One ${size} ${crust} pizza with `;
-  console.log({ size, crust, toppings });
-  for (let name of toppings) {
-    message += `${name}, `;
-  }
-  console.log(`${message} coming up!`);
-  return [size, crust, toppings];
-}
-getPizzaOrder("large", "thin", "pep");
+// greetCustomer();
+// function getPizzaOrder(size, crust, ...toppings) {
+//   let message = `One ${size} ${crust} pizza with `;
+//   console.log({ size, crust, toppings });
+//   for (let name of toppings) {
+//     message += `${name}, `;
+//   }
+//   console.log(`${message} coming up!`);
+//   return [size, crust, toppings];
+// }
+// getPizzaOrder("large", "thin", "pep");
 
 // create a function with array prams
 function preparePizza([aSize, aCrust, ...atoppings]) {
@@ -37,7 +37,7 @@ function preparePizza([aSize, aCrust, ...atoppings]) {
   return obj;
 }
 // console.log(preparePizza);
-// preparePizza(["large", "thin", ["pep", "sausage"]]);
+preparePizza(["large", "thin", ["pep", "sausage"]]);
 
 // }
 // has a parameter of a pizza Object
