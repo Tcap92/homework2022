@@ -36,6 +36,9 @@ div {
 }
 
 
-.header > h1 @media (max-width: 500px) {
-  background-color: red;
+@media (max-width: 500px) {
+  .title {
+    background-color: red;
+  }
+
 }
